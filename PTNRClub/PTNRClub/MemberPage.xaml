@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PTNRClub.MemberPage"
+              xmlns:controls="clr-namespace:PTNRClub.Controls"
+             Title="MEMBER"
+             BackgroundColor="#ECD6D6">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="LOGOUT" Clicked="Logout_Clicked"/>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <controls:CardView/>
+                <Label Text="Points Balance" FontSize="Large" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" />
+                <Label Text="0 Points" FontSize="Large" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" />
+                <Label Text="Exp : -/-/" FontSize="Medium"  HorizontalOptions="CenterAndExpand" />
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -37,9 +37,17 @@ namespace PTNRClub
 
                 //เทคนิค การเปลี่ยนหน้าหลักให้อยู่ใน masterDetail
 
+
+               //var iPage = new NavigationPage(new MainPage())
+               // {
+               //     //BarBackgroundColor = Color.FromHex("#ff5300"),
+               //     //BarTextColor = Color.White,
+               // };
+
+
                 await Navigation.PushModalAsync(new MainPage());
 
-
+    
             }
 
             else await DisplayAlert("Warning", "Username or Password incorrect!!", "OK");

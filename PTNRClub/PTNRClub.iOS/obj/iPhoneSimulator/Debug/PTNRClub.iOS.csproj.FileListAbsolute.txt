@@ -46,7 +46,6 @@ D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Xamarin
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\PTNRClub.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\PTNRClub.pdb
-D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\PTNRClub.dll.mdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
@@ -59,3 +58,8 @@ D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\obj\iPhoneSimulator\Debug\XamlC.stamp
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\obj\iPhoneSimulator\Debug\PTNRClub.iOS.csproj.CopyComplete
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\obj\iPhoneSimulator\Debug\PTNRClub.iOS.exe
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\obj\iPhoneSimulator\Debug\PTNRClub.iOS.pdb
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.CarouselView.dll
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\CardView.dll
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\C1.iOS.Core.dll
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\C1.Xamarin.Forms.Core.Platform.iOS.dll
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\C1.Xamarin.Forms.Core.dll

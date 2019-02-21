@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PTNRClub.PrivilegePage"
+             xmlns:local="clr-namespace:PTNRClub.Models"
+             xmlns:cv="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView"
+             Title="PRIVILEGE"
+             BackgroundColor="#ECD6D6">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="LOGOUT" Clicked="Logout_Clicked"/>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <StackLayout Grid.Row="0" BackgroundColor="#1877D1" >
+            <cv:CarouselView  ItemsSource="{Binding MyDataSource}"  Position="{Binding Position, Mode=TwoWay}">
+                <cv:CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <Image  Aspect="AspectFill" Source="{Binding ImageUrl}"/>
+
+                    </DataTemplate>
+                </cv:CarouselView.ItemTemplate>
+            </cv:CarouselView>
+            <local:CarouselIndicators IndicatorHeight="16" IndicatorWidth="16" UnselectedIndicator="unselected_circle.png" SelectedIndicator="selected_circle.png" Position="{Binding Position}" ItemsSource="{Binding MyDataSource}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

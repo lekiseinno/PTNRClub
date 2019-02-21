@@ -107,6 +107,10 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "PTNRClub.Android.dll" comes first in this list. */
 		"PTNRClub.Android.dll",
+		"C1.Android.Core.dll",
+		"C1.Xamarin.Forms.Core.dll",
+		"C1.Xamarin.Forms.Core.Platform.Android.dll",
+		"CardView.dll",
 		"FormsViewGroup.dll",
 		"Newtonsoft.Json.dll",
 		"Plugin.Settings.dll",
@@ -130,6 +134,7 @@ class MonoPackageManager_Resources {
 		"Xamarin.Android.Support.v7.Palette.dll",
 		"Xamarin.Android.Support.v7.RecyclerView.dll",
 		"Xamarin.Android.Support.Vector.Drawable.dll",
+		"Xamarin.Forms.CarouselView.dll",
 		"Xamarin.Forms.Core.dll",
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",

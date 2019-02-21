@@ -4,5 +4,10 @@
              x:Class="PTNRClub.App">
     <Application.Resources>
 
+        <Style TargetType="NavigationPage">
+            <Setter Property="BarBackgroundColor" Value="#FF6666"/>
+            <Setter Property="BarTextColor" Value="White"/>
+        </Style>
+        
     </Application.Resources>
 </Application>

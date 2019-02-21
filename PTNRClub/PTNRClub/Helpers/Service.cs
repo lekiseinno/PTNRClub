@@ -11,9 +11,9 @@ namespace PTNRClub.Helpers
 {
     public static class Service
     {
-        private static Uri BaseAddress = new Uri("http://lekise.dyndns.biz:8081");
+       // private static Uri BaseAddress = new Uri("http://lekise.dyndns.biz:8081");
 
-        // private static Uri BaseAddress = new Uri("http://10.10.2.31:8081");
+         private static Uri BaseAddress = new Uri("http://10.10.2.31:8081");
 
 
 
@@ -24,7 +24,7 @@ namespace PTNRClub.Helpers
 
             param.Add("signinusername", iusername);
             param.Add("signinpassword", ipassword);
-            param.Add("appname", "MYLEKISE");
+            param.Add("appname", "PTNRCLUB");
 
             var content = new FormUrlEncodedContent(param);
 

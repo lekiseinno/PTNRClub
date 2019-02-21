@@ -2,6 +2,37 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "C1.iOS.Core/3.4.20183.360": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/C1.iOS.Core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/C1.iOS.Core.dll": {}
+        }
+      },
+      "C1.Xamarin.Forms.Core/3.4.20183.360": {
+        "type": "package",
+        "dependencies": {
+          "C1.iOS.Core": "[3.4.20183.360]",
+          "System.Xml.XmlSerializer": "4.3.0",
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/C1.Xamarin.Forms.Core.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/C1.Xamarin.Forms.Core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/C1.Xamarin.Forms.Core.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/C1.Xamarin.Forms.Core.dll": {}
+        }
+      },
+      "LiveXAML/2.1.63": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
       "Newtonsoft.Json/12.0.1": {
         "type": "package",
         "compile": {
@@ -9,6 +40,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Xml.XmlSerializer/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
         }
       },
       "Xam.Plugins.Settings/4.0.0.10-beta": {
@@ -143,13 +183,41 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.CarouselView/2.3.0-pre2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.0.42-pre3"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.CarouselView.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.CarouselView.dll": {}
+        }
+      },
+      "XamarinForms.CardView/1.1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wp8+wpa81/CardView.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wp8+wpa81/CardView.dll": {}
+        }
+      },
       "PTNRClub/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "C1.Xamarin.Forms.Core": "3.4.20183.360",
+          "LiveXAML": "2.1.63",
           "Newtonsoft.Json": "12.0.1",
           "Xam.Plugins.Settings": "4.0.0.10-beta",
-          "Xamarin.Forms": "3.4.0.1008975"
+          "Xamarin.Forms": "3.4.0.1008975",
+          "Xamarin.Forms.CarouselView": "2.3.0-pre2",
+          "XamarinForms.CardView": "1.1.1.5"
         },
         "compile": {
           "bin/placeholder/PTNRClub.dll": {}
@@ -160,6 +228,37 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "C1.iOS.Core/3.4.20183.360": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/C1.iOS.Core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/C1.iOS.Core.dll": {}
+        }
+      },
+      "C1.Xamarin.Forms.Core/3.4.20183.360": {
+        "type": "package",
+        "dependencies": {
+          "C1.iOS.Core": "[3.4.20183.360]",
+          "System.Xml.XmlSerializer": "4.3.0",
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/C1.Xamarin.Forms.Core.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/C1.Xamarin.Forms.Core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/C1.Xamarin.Forms.Core.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/C1.Xamarin.Forms.Core.dll": {}
+        }
+      },
+      "LiveXAML/2.1.63": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
       "Newtonsoft.Json/12.0.1": {
         "type": "package",
         "compile": {
@@ -167,6 +266,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Xml.XmlSerializer/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
         }
       },
       "Xam.Plugins.Settings/4.0.0.10-beta": {
@@ -301,13 +409,41 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.CarouselView/2.3.0-pre2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.0.42-pre3"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.CarouselView.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.CarouselView.dll": {}
+        }
+      },
+      "XamarinForms.CardView/1.1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wp8+wpa81/CardView.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wp8+wpa81/CardView.dll": {}
+        }
+      },
       "PTNRClub/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "C1.Xamarin.Forms.Core": "3.4.20183.360",
+          "LiveXAML": "2.1.63",
           "Newtonsoft.Json": "12.0.1",
           "Xam.Plugins.Settings": "4.0.0.10-beta",
-          "Xamarin.Forms": "3.4.0.1008975"
+          "Xamarin.Forms": "3.4.0.1008975",
+          "Xamarin.Forms.CarouselView": "2.3.0-pre2",
+          "XamarinForms.CardView": "1.1.1.5"
         },
         "compile": {
           "bin/placeholder/PTNRClub.dll": {}
@@ -318,6 +454,37 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "C1.iOS.Core/3.4.20183.360": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/C1.iOS.Core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/C1.iOS.Core.dll": {}
+        }
+      },
+      "C1.Xamarin.Forms.Core/3.4.20183.360": {
+        "type": "package",
+        "dependencies": {
+          "C1.iOS.Core": "[3.4.20183.360]",
+          "System.Xml.XmlSerializer": "4.3.0",
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/C1.Xamarin.Forms.Core.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/C1.Xamarin.Forms.Core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/C1.Xamarin.Forms.Core.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/C1.Xamarin.Forms.Core.dll": {}
+        }
+      },
+      "LiveXAML/2.1.63": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
       "Newtonsoft.Json/12.0.1": {
         "type": "package",
         "compile": {
@@ -325,6 +492,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Xml.XmlSerializer/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
         }
       },
       "Xam.Plugins.Settings/4.0.0.10-beta": {
@@ -459,13 +635,41 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.CarouselView/2.3.0-pre2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.0.42-pre3"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.CarouselView.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.CarouselView.dll": {}
+        }
+      },
+      "XamarinForms.CardView/1.1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wp8+wpa81/CardView.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wp8+wpa81/CardView.dll": {}
+        }
+      },
       "PTNRClub/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "C1.Xamarin.Forms.Core": "3.4.20183.360",
+          "LiveXAML": "2.1.63",
           "Newtonsoft.Json": "12.0.1",
           "Xam.Plugins.Settings": "4.0.0.10-beta",
-          "Xamarin.Forms": "3.4.0.1008975"
+          "Xamarin.Forms": "3.4.0.1008975",
+          "Xamarin.Forms.CarouselView": "2.3.0-pre2",
+          "XamarinForms.CardView": "1.1.1.5"
         },
         "compile": {
           "bin/placeholder/PTNRClub.dll": {}
@@ -476,6 +680,37 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "C1.iOS.Core/3.4.20183.360": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/C1.iOS.Core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/C1.iOS.Core.dll": {}
+        }
+      },
+      "C1.Xamarin.Forms.Core/3.4.20183.360": {
+        "type": "package",
+        "dependencies": {
+          "C1.iOS.Core": "[3.4.20183.360]",
+          "System.Xml.XmlSerializer": "4.3.0",
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/C1.Xamarin.Forms.Core.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/C1.Xamarin.Forms.Core.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/C1.Xamarin.Forms.Core.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/C1.Xamarin.Forms.Core.dll": {}
+        }
+      },
+      "LiveXAML/2.1.63": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
       "Newtonsoft.Json/12.0.1": {
         "type": "package",
         "compile": {
@@ -483,6 +718,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Xml.XmlSerializer/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
         }
       },
       "Xam.Plugins.Settings/4.0.0.10-beta": {
@@ -617,13 +861,41 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.CarouselView/2.3.0-pre2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.0.42-pre3"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.CarouselView.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.CarouselView.dll": {}
+        }
+      },
+      "XamarinForms.CardView/1.1.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.122203"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wp8+wpa81/CardView.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wp8+wpa81/CardView.dll": {}
+        }
+      },
       "PTNRClub/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "C1.Xamarin.Forms.Core": "3.4.20183.360",
+          "LiveXAML": "2.1.63",
           "Newtonsoft.Json": "12.0.1",
           "Xam.Plugins.Settings": "4.0.0.10-beta",
-          "Xamarin.Forms": "3.4.0.1008975"
+          "Xamarin.Forms": "3.4.0.1008975",
+          "Xamarin.Forms.CarouselView": "2.3.0-pre2",
+          "XamarinForms.CardView": "1.1.1.5"
         },
         "compile": {
           "bin/placeholder/PTNRClub.dll": {}
@@ -635,6 +907,72 @@
     }
   },
   "libraries": {
+    "C1.iOS.Core/3.4.20183.360": {
+      "sha512": "eY4sDyPBOFKzFPdzfHtFnkBgWZYJqajM4CrR/MI95Nua32Nl7l47Q12ye0QHClj0jy3ieoOwMbVOboW+sF8OXw==",
+      "type": "package",
+      "path": "c1.ios.core/3.4.20183.360",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "c1.ios.core.3.4.20183.360.nupkg.sha512",
+        "c1.ios.core.nuspec",
+        "lib/Xamarin.iOS10/C1.iOS.Core.dll",
+        "lib/Xamarin.iOS10/C1.iOS.Core.xml"
+      ]
+    },
+    "C1.Xamarin.Forms.Core/3.4.20183.360": {
+      "sha512": "r21elTxK4dinr3YXL5jubClqsfXNxsooIUnqzPJdUzcIBZAWoNNFS+TavWjSYEJaLf2ttOkGx9+1xJMgVfjViA==",
+      "type": "package",
+      "path": "c1.xamarin.forms.core/3.4.20183.360",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "c1.xamarin.forms.core.3.4.20183.360.nupkg.sha512",
+        "c1.xamarin.forms.core.nuspec",
+        "lib/MonoAndroid10/C1.Xamarin.Forms.Core.Platform.Android.dll",
+        "lib/MonoAndroid10/C1.Xamarin.Forms.Core.Platform.Android.xml",
+        "lib/MonoAndroid10/C1.Xamarin.Forms.Core.dll",
+        "lib/MonoAndroid10/C1.Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/C1.Xamarin.Forms.Core.Platform.iOS.dll",
+        "lib/Xamarin.iOS10/C1.Xamarin.Forms.Core.Platform.iOS.xml",
+        "lib/Xamarin.iOS10/C1.Xamarin.Forms.Core.dll",
+        "lib/Xamarin.iOS10/C1.Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/C1.Xamarin.Forms.Core.dll",
+        "lib/netstandard2.0/C1.Xamarin.Forms.Core.xml",
+        "lib/uap10.0/C1.UWP.Core.dll",
+        "lib/uap10.0/C1.UWP.Core.pri",
+        "lib/uap10.0/C1.UWP.Core.xml",
+        "lib/uap10.0/C1.UWP.Core/C1.UWP.Core.xr.xml",
+        "lib/uap10.0/C1.UWP.Core/themes/C1FullscreenDialog.xbf",
+        "lib/uap10.0/C1.UWP.Core/themes/generic.xbf",
+        "lib/uap10.0/C1.UWP.DX.dll",
+        "lib/uap10.0/C1.UWP.DX.pri",
+        "lib/uap10.0/C1.UWP.DX.xml",
+        "lib/uap10.0/C1.Xamarin.Forms.Core.Platform.UWP.dll",
+        "lib/uap10.0/C1.Xamarin.Forms.Core.Platform.UWP.pri",
+        "lib/uap10.0/C1.Xamarin.Forms.Core.Platform.UWP.xml",
+        "lib/uap10.0/C1.Xamarin.Forms.Core.Platform.UWP/C1.Xamarin.Forms.Core.Platform.UWP.xr.xml",
+        "lib/uap10.0/C1.Xamarin.Forms.Core.Platform.UWP/themes/ToggleButton.xbf",
+        "lib/uap10.0/C1.Xamarin.Forms.Core.dll",
+        "lib/uap10.0/C1.Xamarin.Forms.Core.xml"
+      ]
+    },
+    "LiveXAML/2.1.63": {
+      "sha512": "8nyi92hHUlFA8ripF4cHHrNCxy62TLhrKpiLL3pcqlcSBZH5epWQCDo3hXLbOsj4wRSCmE6kmefwASCIDtpZ/A==",
+      "type": "package",
+      "path": "livexaml/2.1.63",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/LiveXAML.targets",
+        "build/XamarinLive.Build.dll",
+        "build/XamarinLive.Common.dll",
+        "build/minified.cs",
+        "build/minified.tpl.cs",
+        "livexaml.2.1.63.nupkg.sha512",
+        "livexaml.nuspec"
+      ]
+    },
     "Newtonsoft.Json/12.0.1": {
       "sha512": "jmVyoEyk0In8r+AObYQyFKVFm7uSRzE0XSHSbEtBJcZDMV6DqJoyB4FLcHwprPVhAh826so0db3DIKXVnpGoPA==",
       "type": "package",
@@ -672,6 +1010,77 @@
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "newtonsoft.json.12.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec"
+      ]
+    },
+    "System.Xml.XmlSerializer/4.3.0": {
+      "sha512": "kwo6Kf+0jjEcmB+S2BI5SL0xHHRIBd0Cjf11BGliuZ3Va9V1hDbKZmq0mb7HO8QPlYYrq8eNToOzipfw6ARKEw==",
+      "type": "package",
+      "path": "system.xml.xmlserializer/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Xml.XmlSerializer.dll",
+        "lib/netstandard1.3/System.Xml.XmlSerializer.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Xml.XmlSerializer.dll",
+        "ref/netcore50/System.Xml.XmlSerializer.xml",
+        "ref/netcore50/de/System.Xml.XmlSerializer.xml",
+        "ref/netcore50/es/System.Xml.XmlSerializer.xml",
+        "ref/netcore50/fr/System.Xml.XmlSerializer.xml",
+        "ref/netcore50/it/System.Xml.XmlSerializer.xml",
+        "ref/netcore50/ja/System.Xml.XmlSerializer.xml",
+        "ref/netcore50/ko/System.Xml.XmlSerializer.xml",
+        "ref/netcore50/ru/System.Xml.XmlSerializer.xml",
+        "ref/netcore50/zh-hans/System.Xml.XmlSerializer.xml",
+        "ref/netcore50/zh-hant/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.0/System.Xml.XmlSerializer.dll",
+        "ref/netstandard1.0/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.0/de/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.0/es/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.0/fr/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.0/it/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.0/ja/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.0/ko/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.0/ru/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.0/zh-hans/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.0/zh-hant/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.3/System.Xml.XmlSerializer.dll",
+        "ref/netstandard1.3/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.3/de/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.3/es/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.3/fr/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.3/it/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.3/ja/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.3/ko/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.3/ru/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.3/zh-hans/System.Xml.XmlSerializer.xml",
+        "ref/netstandard1.3/zh-hant/System.Xml.XmlSerializer.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll",
+        "system.xml.xmlserializer.4.3.0.nupkg.sha512",
+        "system.xml.xmlserializer.nuspec"
       ]
     },
     "Xam.Plugins.Settings/4.0.0.10-beta": {
@@ -855,6 +1264,36 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.CarouselView/2.3.0-pre2": {
+      "sha512": "1QJzPUm9dLBu+i3NGHPZmk7w58kCb74i8QbtrDLbPZesqVjAaEnRrGjKTvZlxJCEKWPKgqZMb0af30+Al82KEQ==",
+      "type": "package",
+      "path": "xamarin.forms.carouselview/2.3.0-pre2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Xamarin.Forms.CarouselView.dll",
+        "lib/MonoTouch10/Xamarin.Forms.CarouselView.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.CarouselView.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.CarouselView.dll",
+        "lib/uap10.0/Xamarin.Forms.CarouselView.dll",
+        "lib/win81/Xamarin.Forms.CarouselView.dll",
+        "lib/wpa81/Xamarin.Forms.CarouselView.dll",
+        "xamarin.forms.carouselview.2.3.0-pre2.nupkg.sha512",
+        "xamarin.forms.carouselview.nuspec"
+      ]
+    },
+    "XamarinForms.CardView/1.1.1.5": {
+      "sha512": "v0Km8qjwOO/TXoHEp0QvlzAS1bl6vJiVtyojYInT2a1pb0cjK/I4V8bWCHWFbXdZVO/vPonA5wW1l+9ByPL4ug==",
+      "type": "package",
+      "path": "xamarinforms.cardview/1.1.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/portable45-net45+win8+wp8+wpa81/CardView.dll",
+        "xamarinforms.cardview.1.1.1.5.nupkg.sha512",
+        "xamarinforms.cardview.nuspec"
+      ]
+    },
     "PTNRClub/1.0.0": {
       "type": "project",
       "path": "../PTNRClub/PTNRClub.csproj",
@@ -863,6 +1302,7 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "C1.Xamarin.Forms.Core >= 3.4.20183.360",
       "PTNRClub >= 1.0.0",
       "Xamarin.Forms >= 3.4.0.1008975"
     ]
@@ -904,6 +1344,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "C1.Xamarin.Forms.Core": {
+            "target": "Package",
+            "version": "[3.4.20183.360, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[3.4.0.1008975, )"

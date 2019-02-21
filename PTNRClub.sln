@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTNRClub.Android", "PTNRClu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTNRClub.iOS", "PTNRClub\PTNRClub.iOS\PTNRClub.iOS.csproj", "{EB10E236-BB49-4AB5-ACA7-A2EDC12B212D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTNRClub", "PTNRClub\PTNRClub\PTNRClub.csproj", "{B55942ED-4176-4EAD-BDB1-BFA16F17A901}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PTNRClub", "PTNRClub\PTNRClub\PTNRClub.csproj", "{B55942ED-4176-4EAD-BDB1-BFA16F17A901}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

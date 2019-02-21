@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Frame xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PTNRClub.Controls.CardView"
+             Padding="0" Margin="10" VerticalOptions="Start"
+       >
+    <Frame.GestureRecognizers>
+        <TapGestureRecognizer Tapped="Card_Tapped"/>
+    </Frame.GestureRecognizers>
+    <Frame.Content>
+        <StackLayout>
+            <Grid>
+                <BoxView x:Name="boxCardColor" HorizontalOptions="Fill" BackgroundColor="#00ACC1" InputTransparent="True"/>
+                <Image x:Name="imgCard" HorizontalOptions="Fill" Aspect="AspectFill" Source="cardimage1.PNG" InputTransparent="True"/>
+               
+                <StackLayout Margin="10" VerticalOptions="EndAndExpand"  >
+                    <StackLayout Orientation="Horizontal" Spacing="10">
+                        <Label FontAttributes="Bold" FontSize="Default" TextColor="#FFFFFF" Text="CHONNIKAN"/>
+                        <Label FontAttributes="Bold" FontSize="Default" TextColor="#FFFFFF" Text="BUTBUMRUNG"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" Spacing="10">
+                        <Label FontAttributes="Bold" FontSize="Default" TextColor="#FFFFFF" Text="1234567890123456"/>
+         
+                    </StackLayout>
+
+
+                </StackLayout>
+
+            </Grid>
+
+            <!--<StackLayout Orientation="Horizontal" Spacing="10">
+                <Label FontAttributes="Bold" FontSize="Default" TextColor="#FFB300" Text="SHARE"/>
+                <Label FontAttributes="Bold" FontSize="Default" TextColor="#FFB300" Text="EXPLORE"/>
+            </StackLayout>-->
+
+
+        </StackLayout>
+    </Frame.Content>
+
+</Frame>

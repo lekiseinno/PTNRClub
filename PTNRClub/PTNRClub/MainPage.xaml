@@ -1,14 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<TabbedPage  xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:PTNRClub"
-             x:Class="PTNRClub.MainPage">
+             xmlns:views="clr-namespace:PTNRClub;assembly=PTNRClub"
+             x:Class="PTNRClub.MainPage" 
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             android:TabbedPage.ToolbarPlacement="Bottom"
+             android:TabbedPage.BarItemColor="#999999"
+             android:TabbedPage.BarSelectedItemColor="white"
+             BarBackgroundColor="#FF6666">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+    <TabbedPage.Children>
+        <NavigationPage Title="Member" Icon="{OnPlatform UWP=Assets/iconXamagon.png, Default=tab_threeone.png}">
+            <x:Arguments>
+                <views:MemberPage />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Privilege" Icon="{OnPlatform UWP=Assets/iconXamagon.png, Default=tab_threeone.png}">
+            <x:Arguments>
+                <views:PrivilegePage />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Promotion" Icon="{OnPlatform UWP=Assets/iconXamagon.png, Default=tab_threeone.png}">
+            <x:Arguments>
+                <views:PromotionPage />
+            </x:Arguments>
+        </NavigationPage>
 
-</ContentPage>
+        <NavigationPage Title="History" Icon="{OnPlatform UWP=Assets/tab_about.png, Default=tab_about.png}">
+            <x:Arguments>
+                <views:HistoryPage />
+            </x:Arguments>
+        </NavigationPage>
+    </TabbedPage.Children>
+</TabbedPage>
