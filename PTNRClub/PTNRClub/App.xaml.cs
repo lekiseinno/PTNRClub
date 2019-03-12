@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DLToolkit.Forms.Controls;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -9,9 +10,10 @@ namespace PTNRClub
     {
         public App()
         {
+            FlowListView.Init();
             InitializeComponent();
 
-            MainPage = new LoginPage ();
+            MainPage = new MainPage  ();
         }
 
         protected override void OnStart()

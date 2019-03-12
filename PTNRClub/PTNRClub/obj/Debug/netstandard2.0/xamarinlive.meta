@@ -16,6 +16,11 @@
       </Properties>
     </XamlFileMeta>
     <XamlFileMeta>
+      <FilePath>D:\PTNR\PTNRClub\PTNRClub\PTNRClub\DetailPage.xaml</FilePath>
+      <Hash>7C-35-6F-09-77-54-C4-47-2C-50-07-01-DB-40-B2-9A</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
       <FilePath>D:\PTNR\PTNRClub\PTNRClub\PTNRClub\HistoryPage.xaml</FilePath>
       <Hash>C2-AA-02-76-23-D0-41-DA-D1-98-C7-A8-E0-11-9E-6C</Hash>
       <Properties>
@@ -32,7 +37,7 @@
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>D:\PTNR\PTNRClub\PTNRClub\PTNRClub\MainPage.xaml</FilePath>
-      <Hash>17-FA-BF-AA-C2-87-7D-01-83-F5-0F-EB-8E-7B-08-FC</Hash>
+      <Hash>86-27-65-A5-17-89-C7-B9-CA-BE-F3-AD-4F-6D-36-EC</Hash>
       <Properties>
         <string>BarBackgroundColor</string>
       </Properties>
@@ -46,8 +51,16 @@
       </Properties>
     </XamlFileMeta>
     <XamlFileMeta>
+      <FilePath>D:\PTNR\PTNRClub\PTNRClub\PTNRClub\NewsPage.xaml</FilePath>
+      <Hash>18-18-FC-8D-E3-AB-BA-99-74-31-40-97-75-A6-12-BB</Hash>
+      <Properties>
+        <string>Title</string>
+        <string>BackgroundColor</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
       <FilePath>D:\PTNR\PTNRClub\PTNRClub\PTNRClub\PrivilegePage.xaml</FilePath>
-      <Hash>9B-24-26-B5-50-1D-98-14-96-CA-47-0A-7F-22-C6-FE</Hash>
+      <Hash>BD-5B-5D-52-C4-6A-A3-01-2A-32-35-28-AB-57-33-24</Hash>
       <Properties>
         <string>Title</string>
         <string>BackgroundColor</string>
@@ -55,7 +68,7 @@
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>D:\PTNR\PTNRClub\PTNRClub\PTNRClub\PromotionPage.xaml</FilePath>
-      <Hash>84-8A-75-0B-CB-A0-08-A1-B1-93-7A-0E-1C-36-A5-F0</Hash>
+      <Hash>AA-51-EC-4E-04-88-DF-A2-5A-52-7B-0D-EA-74-E9-60</Hash>
       <Properties>
         <string>Title</string>
         <string>BackgroundColor</string>

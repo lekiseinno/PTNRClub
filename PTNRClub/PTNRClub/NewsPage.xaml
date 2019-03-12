@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PTNRClub.NewsPage"
+             xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             Title="NEWS"
+             BackgroundColor="#ECD6D6">
+             
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="LOGOUT" Clicked="Logout_Clicked"/>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+
+        <flv:FlowListView
+            SeparatorVisibility="None"
+            FlowColumnCount="2"
+            HasUnevenRows="true"
+            FlowItemTappedCommand="{Binding ItemTappedCommand}"
+            FlowLastTappedItem="{Binding LastTappedItem}"
+            FlowItemsSource="{Binding Items}">
+
+            <flv:FlowListView.FlowColumnTemplate>
+
+                <DataTemplate>
+
+                    <Grid>
+
+
+                        <ffimageloading:CachedImage  Aspect="Fill" HeightRequest="300"
+                            LoadingPlaceholder="image_loading.png" ErrorPlaceholder="image_error.png"
+                            Source="{Binding ImageUrl}"/>
+
+
+                    </Grid>
+
+
+                </DataTemplate>
+
+            </flv:FlowListView.FlowColumnTemplate>
+
+        </flv:FlowListView>
+
+    </ContentPage.Content>
+</ContentPage>

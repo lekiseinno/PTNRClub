@@ -26,6 +26,12 @@
             </x:Arguments>
         </NavigationPage>
 
+        <NavigationPage Title="News" Icon="{OnPlatform UWP=Assets/iconXamagon.png, Default=tab_threeone.png}">
+            <x:Arguments>
+                <views:NewsPage />
+            </x:Arguments>
+        </NavigationPage>
+        
         <NavigationPage Title="History" Icon="{OnPlatform UWP=Assets/tab_about.png, Default=tab_about.png}">
             <x:Arguments>
                 <views:HistoryPage />

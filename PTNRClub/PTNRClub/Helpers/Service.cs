@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using PTNRClub.Models;
 using System;
 using System.Collections.Generic;
@@ -11,20 +12,20 @@ namespace PTNRClub.Helpers
 {
     public static class Service
     {
-       // private static Uri BaseAddress = new Uri("http://lekise.dyndns.biz:8081");
+        // private static Uri BaseAddress = new Uri("http://lekise.dyndns.biz:8081");
 
-         private static Uri BaseAddress = new Uri("http://10.10.2.31:8081");
+        private static Uri BaseAddress = new Uri("http://10.10.2.31:8081");
 
 
 
-        public static async Task<User>AuthenUser(string iusername, string ipassword)
+        public static async Task<User> AuthenUser(string iusername, string ipassword)
         {
 
             var param = new Dictionary<string, string>();
 
             param.Add("signinusername", iusername);
             param.Add("signinpassword", ipassword);
-            param.Add("appname", "PTNRCLUB");
+            param.Add("aapname", "PTNRCLUB");
 
             var content = new FormUrlEncodedContent(param);
 
@@ -49,6 +50,35 @@ namespace PTNRClub.Helpers
                 else return null;
             }
             else return null;
+        }
+
+
+
+
+
+        public static async Task<ImageList> GetImageList(string ifolder)
+        {
+
+            var requestUri = "http://10.10.2.31:8081/apps/PTNRclub/images/readdir.php?folder=" + ifolder;
+
+            //var requestUri = "http://lekise.dyndns.biz:8081/apps/PTNRclub/images/readdir.php?folder=" + ifolder;
+
+
+            using (var client = new HttpClient())
+            {
+
+
+                var result = await client.GetStringAsync(requestUri);
+                if (result != null)
+                {
+                    return JsonConvert.DeserializeObject<ImageList>(result);
+                }
+                else return null;
+
+               
+            }
+
+
         }
     }
 }

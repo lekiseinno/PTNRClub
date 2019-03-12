@@ -2,8 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PTNRClub.PrivilegePage"
-             xmlns:local="clr-namespace:PTNRClub.Models"
-             xmlns:cv="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView"
+             xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              Title="PRIVILEGE"
              BackgroundColor="#ECD6D6">
 
@@ -12,16 +12,35 @@
     </ContentPage.ToolbarItems>
 
     <ContentPage.Content>
-        <StackLayout Grid.Row="0" BackgroundColor="#1877D1" >
-            <cv:CarouselView  ItemsSource="{Binding MyDataSource}"  Position="{Binding Position, Mode=TwoWay}">
-                <cv:CarouselView.ItemTemplate>
-                    <DataTemplate>
-                        <Image  Aspect="AspectFill" Source="{Binding ImageUrl}"/>
 
-                    </DataTemplate>
-                </cv:CarouselView.ItemTemplate>
-            </cv:CarouselView>
-            <local:CarouselIndicators IndicatorHeight="16" IndicatorWidth="16" UnselectedIndicator="unselected_circle.png" SelectedIndicator="selected_circle.png" Position="{Binding Position}" ItemsSource="{Binding MyDataSource}" />
-        </StackLayout>
+        <flv:FlowListView
+            SeparatorVisibility="None"
+            FlowColumnCount="2"
+            HasUnevenRows="true"
+            FlowItemTappedCommand="{Binding ItemTappedCommand}"
+            FlowLastTappedItem="{Binding LastTappedItem}"
+            FlowItemsSource="{Binding Items}">
+
+            <flv:FlowListView.FlowColumnTemplate>
+
+                <DataTemplate>
+
+                    <Grid>
+
+
+                        <ffimageloading:CachedImage  Aspect="Fill" HeightRequest="300"
+                            LoadingPlaceholder="image_loading.png" ErrorPlaceholder="image_error.png"
+                            Source="{Binding ImageUrl}"/>
+
+
+                    </Grid>
+
+
+                </DataTemplate>
+
+            </flv:FlowListView.FlowColumnTemplate>
+
+        </flv:FlowListView>
+    
     </ContentPage.Content>
 </ContentPage>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PTNRClub.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,13 +10,32 @@ using Xamarin.Forms.Xaml;
 
 namespace PTNRClub
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
+
 	public partial class PromotionPage : ContentPage
 	{
-		public PromotionPage ()
+
+        public static string ifloder = "";
+
+        public PromotionPageModel _ViewModel;
+
+        public PromotionPage ()
 		{
-			InitializeComponent ();
-		}
+            ifloder = "promotion";
+
+
+            InitializeComponent();
+
+
+
+           BindingContext = _ViewModel = new PromotionPageModel(ifloder);
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            _ViewModel.GetData.Execute(null);
+        }
+
 
 
         private async void Logout_Clicked(object sender, EventArgs e)
