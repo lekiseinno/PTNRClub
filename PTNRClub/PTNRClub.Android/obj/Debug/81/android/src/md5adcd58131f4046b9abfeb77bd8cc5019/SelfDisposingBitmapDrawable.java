@@ -10,6 +10,7 @@ public class SelfDisposingBitmapDrawable
 	public static final String __md_methods;
 	static {
 		__md_methods = 
+			"n_finalize:()V:GetJavaFinalizeHandler\n" +
 			"";
 		mono.android.Runtime.register ("FFImageLoading.Drawables.SelfDisposingBitmapDrawable, FFImageLoading.Platform", SelfDisposingBitmapDrawable.class, __md_methods);
 	}
@@ -77,6 +78,14 @@ public class SelfDisposingBitmapDrawable
 		if (getClass () == SelfDisposingBitmapDrawable.class)
 			mono.android.TypeManager.Activate ("FFImageLoading.Drawables.SelfDisposingBitmapDrawable, FFImageLoading.Platform", "System.String, mscorlib", this, new java.lang.Object[] { p0 });
 	}
+
+
+	public void finalize ()
+	{
+		n_finalize ();
+	}
+
+	private native void n_finalize ();
 
 	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)

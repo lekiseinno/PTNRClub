@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="PTNRClub.App" xmlns:__xl="clr-namespace:__livexaml" __xl:Runtime.Register="D:\PTNR\PTNRClub\PTNRClub\PTNRClub\App.xaml">
+  <Application.Resources>
+    <Style TargetType="NavigationPage">
+      <Setter Property="BarBackgroundColor" Value="#FF6666" />
+      <Setter Property="BarTextColor" Value="White" />
+    </Style>
+  </Application.Resources>
+</Application>

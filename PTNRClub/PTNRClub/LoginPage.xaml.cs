@@ -24,25 +24,28 @@ namespace PTNRClub
             //   var customer = Helpers.Database.Current.AuthenUser(usernameEntry.Text,passwordEntry.Text);
 
             indicator.IsVisible = true;
-            var employees = await Helpers.Service.AuthenUser(usernameEntry.Text, passwordEntry.Text);
+            var customer = await Helpers.Service.AuthenUser(usernameEntry.Text, passwordEntry.Text);
             indicator.IsVisible = false;
 
 
 
-            if (employees != null)
+            if (customer != null)
             {
-                //Helpers.Settings.Name = customer.Name;
-                //Helpers.Settings.Username = customer.Username;
-                //Helpers.Settings.IsLoggedIn = true;
+                Helpers.Settings.Name = customer.cust_name;
+                Helpers.Settings.Surname = customer.cust_surname ;
+                Helpers.Settings.Point = customer.point ;
+                Helpers.Settings.CardNo = customer.cust_card ;
+                Helpers.Settings.Telephone  = customer.cust_tel  ;
+                Helpers.Settings.IsLoggedIn = true;
 
                 //เทคนิค การเปลี่ยนหน้าหลักให้อยู่ใน masterDetail
 
 
-               //var iPage = new NavigationPage(new MainPage())
-               // {
-               //     //BarBackgroundColor = Color.FromHex("#ff5300"),
-               //     //BarTextColor = Color.White,
-               // };
+                //var iPage = new NavigationPage(new MainPage())
+                // {
+                //     //BarBackgroundColor = Color.FromHex("#ff5300"),
+                //     //BarTextColor = Color.White,
+                // };
 
 
                 await Navigation.PushModalAsync(new MainPage());

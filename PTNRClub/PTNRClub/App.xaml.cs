@@ -13,7 +13,10 @@ namespace PTNRClub
             FlowListView.Init();
             InitializeComponent();
 
-            MainPage = new MainPage  ();
+          //  MainPage = new MainPage  ();
+
+
+            MainPage = new LoginPage ();
         }
 
         protected override void OnStart()

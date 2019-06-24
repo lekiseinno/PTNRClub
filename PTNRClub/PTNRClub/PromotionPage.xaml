@@ -7,40 +7,40 @@
              Title="PROMOTION"
              BackgroundColor="#ECD6D6">
 
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="LOGOUT" Clicked="Logout_Clicked"/>
-    </ContentPage.ToolbarItems>
+  <ContentPage.ToolbarItems>
+    <ToolbarItem Text="LOGOUT" Clicked="Logout_Clicked"/>
+  </ContentPage.ToolbarItems>
 
-    <ContentPage.Content>
+  <ContentPage.Content>
 
-        <flv:FlowListView
-            SeparatorVisibility="None"
-            FlowColumnCount="2"
-            HasUnevenRows="true"
-            FlowItemTappedCommand="{Binding ItemTappedCommand}"
-            FlowLastTappedItem="{Binding LastTappedItem}"
-            FlowItemsSource="{Binding Items}">
+    <flv:FlowListView
+        SeparatorVisibility="None"
+        FlowColumnCount="2"
+        HasUnevenRows="true"
+        FlowItemTappedCommand="{Binding ItemTappedCommand}"
+        FlowLastTappedItem="{Binding LastTappedItem}"
+        FlowItemsSource="{Binding Items}">
 
-            <flv:FlowListView.FlowColumnTemplate>
+      <flv:FlowListView.FlowColumnTemplate>
 
-                <DataTemplate>
+        <DataTemplate>
 
-                    <Grid>
-
-
-                        <ffimageloading:CachedImage  Aspect="Fill" HeightRequest="300"
-                            LoadingPlaceholder="image_loading.png" ErrorPlaceholder="image_error.png"
-                            Source="{Binding ImageUrl}"/>
+          <Grid>
 
 
-                    </Grid>
+            <ffimageloading:CachedImage  Aspect="Fill" HeightRequest="300"
+                LoadingPlaceholder="image_loading.png" ErrorPlaceholder="image_error.png"
+                Source="{Binding ImageUrl}"/>
 
 
-                </DataTemplate>
+          </Grid>
 
-            </flv:FlowListView.FlowColumnTemplate>
 
-        </flv:FlowListView>
+        </DataTemplate>
 
-    </ContentPage.Content>
+      </flv:FlowListView.FlowColumnTemplate>
+
+    </flv:FlowListView>
+
+  </ContentPage.Content>
 </ContentPage>

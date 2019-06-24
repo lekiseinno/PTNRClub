@@ -6,10 +6,15 @@ D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\C1.Xamarin.Form
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\DLToolkit.Forms.Controls.FlowListView.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\DLToolkit.Forms.Controls.ImageCropView.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
-D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\SkiaSharp.dll
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\SQLite-net.dll
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_green.dll
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.core.dll
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.provider.sqlite3.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\WebP.Touch.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\Plugin.Settings.dll
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\Plugin.Settings.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Platform.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Platform.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.dll

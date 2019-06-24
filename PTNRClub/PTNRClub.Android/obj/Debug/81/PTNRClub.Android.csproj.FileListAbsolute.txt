@@ -48,12 +48,12 @@ D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\drawable-xxhdpi\icon
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\drawable-xxhdpi\iconxamarin.png
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\drawable-xxhdpi\tab_about.png
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\drawable-xxhdpi\tab_feed.png
-D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\drawable\cardimage1.png
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\drawable\unselected_circle.png
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\drawable\selected_circle.png
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\drawable\image_loading.png
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\drawable\placeholder.png
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\drawable\image_error.png
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\drawable\cardno.png
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\R.cs.flag
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\R.txt
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\uploadflags.txt
@@ -67,7 +67,6 @@ D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\FFImageLoading.Transformati
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\FormsViewGroup.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\Mono.Android.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\mscorlib.pdb
-D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\Newtonsoft.Json.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\System.Core.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\System.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\System.Xml.pdb
@@ -97,7 +96,6 @@ D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\FFImageLoading.T
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\FormsViewGroup.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\Mono.Android.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\mscorlib.pdb
-D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\Newtonsoft.Json.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\System.Core.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\System.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\System.Xml.pdb
@@ -116,8 +114,11 @@ D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\System.Runtime.S
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\System.Web.Services.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\Mono.Security.pdb
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\Plugin.Settings.dll.mdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\PTNRClub.dll.mdb
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\Plugin.Settings.dll.mdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\PTNRClub.dll.mdb
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\Plugin.Settings.dll.mdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\PTNRClub.dll.mdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\FFImageLoading.Forms.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\FFImageLoading.Forms.Platform.pdb
@@ -130,7 +131,6 @@ D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\FormsView
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\Mono.Android.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\Mono.Security.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\mscorlib.pdb
-D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\Newtonsoft.Json.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\PTNRClub.Android.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\System.ComponentModel.Composition.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\System.Core.pdb
@@ -151,4 +151,5 @@ D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\Xamarin.F
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\bin\Debug\netstandard2.0\PTNRClub.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\PTNRClub.dll.mdb
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\Plugin.Settings.dll.mdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\PTNRClub.dll.mdb

@@ -18,14 +18,14 @@ namespace PTNRClub.Helpers
 
 
 
-        public static async Task<User> AuthenUser(string iusername, string ipassword)
+        public static async Task<Customer> AuthenUser(string iusername, string ipassword)
         {
 
             var param = new Dictionary<string, string>();
 
             param.Add("signinusername", iusername);
             param.Add("signinpassword", ipassword);
-            param.Add("aapname", "PTNRCLUB");
+            param.Add("appname", "PTNRCLUB");
 
             var content = new FormUrlEncodedContent(param);
 
@@ -33,7 +33,7 @@ namespace PTNRClub.Helpers
             client.BaseAddress = BaseAddress;
 
 
-            var response = await client.PostAsync("api/lekisegroup/auth", content);
+            var response = await client.PostAsync("api/ptnrat/auth", content);
 
             if (response.StatusCode == HttpStatusCode.OK)
             {
@@ -42,10 +42,10 @@ namespace PTNRClub.Helpers
                 if (json != "null")
                 {
 
-                    var user = JObject.Parse(json).ToObject<User>();
+                    var customer = JObject.Parse(json).ToObject<Customer>();
 
 
-                    return user;
+                    return customer;
                 }
                 else return null;
             }

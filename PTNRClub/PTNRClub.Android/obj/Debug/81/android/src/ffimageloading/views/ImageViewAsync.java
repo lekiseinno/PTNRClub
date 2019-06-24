@@ -2,7 +2,7 @@ package ffimageloading.views;
 
 
 public class ImageViewAsync
-	extends md55759adc3208eb42caa6ddcbd3000b15e.ManagedImageView
+	extends android.widget.ImageView
 	implements
 		mono.android.IGCUserPeer
 {

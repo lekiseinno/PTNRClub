@@ -10,6 +10,7 @@ D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Debug\netstandard2.0\HistoryPage.xaml.g.c
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Debug\netstandard2.0\MemberPage.xaml.g.cs
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Debug\netstandard2.0\NewsPage.xaml.g.cs
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Debug\netstandard2.0\PrivilegePage.xaml.g.cs
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Debug\netstandard2.0\PromotionPage.xaml.g.cs
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Debug\netstandard2.0\PTNRClub.csproj.CoreCompileInputs.cache
@@ -19,4 +20,3 @@ D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Debug\netstandard2.0\XamlC.stamp
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Debug\netstandard2.0\PTNRClub.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Debug\netstandard2.0\PTNRClub.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Debug\netstandard2.0\PTNRClub.csprojAssemblyReference.cache
-D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Debug\netstandard2.0\NewsPage.xaml.g.cs

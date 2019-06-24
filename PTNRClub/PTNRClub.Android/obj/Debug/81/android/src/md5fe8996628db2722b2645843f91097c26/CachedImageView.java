@@ -2,7 +2,7 @@ package md5fe8996628db2722b2645843f91097c26;
 
 
 public class CachedImageView
-	extends ffimageloading.views.ImageViewAsync
+	extends android.widget.ImageView
 	implements
 		mono.android.IGCUserPeer
 {

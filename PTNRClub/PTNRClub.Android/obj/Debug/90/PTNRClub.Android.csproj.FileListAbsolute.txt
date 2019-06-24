@@ -1,0 +1,6 @@
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\90\PTNRClub.Android.nuget.stamp
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\90\PTNRClub.Android.csprojAssemblyReference.cache
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\90\libraryimports.cache.stamp
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\90\res.flag
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\90\PTNRClub.Android.csproj.CoreCompileInputs.cache

@@ -2,7 +2,7 @@ package ffimageloading.cross;
 
 
 public class MvxCachedImageView
-	extends ffimageloading.views.ImageViewAsync
+	extends android.widget.ImageView
 	implements
 		mono.android.IGCUserPeer
 {
