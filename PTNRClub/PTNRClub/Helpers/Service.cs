@@ -80,5 +80,45 @@ namespace PTNRClub.Helpers
 
 
         }
+
+
+
+        public static async Task<List<HistoryList>> GetHistory(string icustid)
+        {
+            var param = new Dictionary<string, string>();
+
+            param.Add("cust_id", icustid);
+ 
+          
+
+            var content = new FormUrlEncodedContent(param);
+
+            var client = new HttpClient();
+            client.BaseAddress = BaseAddress;
+
+
+            var response = await client.PostAsync("api/ptnrat/getHistory", content);
+
+            if (response.StatusCode == HttpStatusCode.OK)
+            {
+                var json = await response.Content.ReadAsStringAsync();
+
+                if (json != "null")
+                {
+
+                    var historyPoint = JArray.Parse(json).ToObject<List<HistoryList>>();
+                    return historyPoint;
+
+
+                 
+                }
+                else return null;
+            }
+            else return null;
+
+
+        }
+
+
     }
 }

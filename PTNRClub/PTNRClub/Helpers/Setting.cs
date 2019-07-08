@@ -8,6 +8,13 @@ namespace PTNRClub.Helpers
     public static class Settings
 
     {
+
+        public static string CusID
+        {
+            get { return CrossSettings.Current.GetValueOrDefault("CusID", ""); }
+            set { CrossSettings.Current.AddOrUpdateValue("CusID", value); }
+        }
+
         public static string Name
         {
             get { return CrossSettings.Current.GetValueOrDefault("Name", ""); }
@@ -18,6 +25,13 @@ namespace PTNRClub.Helpers
         {
             get { return CrossSettings.Current.GetValueOrDefault("Surname", ""); }
             set { CrossSettings.Current.AddOrUpdateValue("Surname", value); }
+        }
+
+
+        public static DateTime  DateExp
+        {
+            get { return CrossSettings.Current.GetValueOrDefault("DateExp", DateTime.Now); }
+            set { CrossSettings.Current.AddOrUpdateValue("DateExp", value); }
         }
 
 

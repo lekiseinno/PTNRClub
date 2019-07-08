@@ -15,8 +15,8 @@
             <StackLayout>
                 <controls:CardView/>
                 <Label Text="Points Balance" FontSize="Large" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" />
-                <Label Text="0 Points" FontSize="Large" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" />
-                <Label Text="Exp : -/-/" FontSize="Medium"  HorizontalOptions="CenterAndExpand" />
+                <Label x:Name="pointS" FontSize="Large" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" />
+                <Label x:Name ="dateExp" FontSize="Medium"  HorizontalOptions="CenterAndExpand" />
 
             </StackLayout>
         </ScrollView>

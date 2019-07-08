@@ -45,7 +45,7 @@ namespace PTNRClub
 
             if (result == "OK")
             {
-                //  Helpers.Settings.IsLoggedIn = false;
+                  Helpers.Settings.IsLoggedIn = false;
 
 
                 App.Current.MainPage = new LoginPage();

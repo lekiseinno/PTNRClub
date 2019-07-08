@@ -14,9 +14,45 @@
     
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="History"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+
+            <ListView ItemsSource="{Binding HistoryItems}"
+                          HasUnevenRows="True"
+                          SeparatorVisibility="Default">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                                <ContentView Padding="5">
+                                    <Frame OutlineColor="Accent"
+                               Padding="10">
+                                        <StackLayout  Orientation="Vertical" >
+
+                                            <StackLayout Orientation="Horizontal" BackgroundColor="White">
+                                    <Label Text="สถานที่" HorizontalTextAlignment="Start"  TextColor="Black" Margin="0,2,0,0" WidthRequest="150" />
+                                    <Label      HorizontalOptions="Center" Text="{Binding location_id}"/>
+                                </StackLayout>
+
+                                <StackLayout Orientation="Horizontal" BackgroundColor="White">
+                                    <Label Text="รายการ" HorizontalTextAlignment="Start"  TextColor="Black" Margin="0,2,0,0" WidthRequest="150" />
+                                    <Label      HorizontalOptions="Center" Text="{Binding pointname}"/>
+                                </StackLayout>
+                            
+                                 <StackLayout Orientation="Horizontal" BackgroundColor="White">
+                                    <Label Text="คะแนน" HorizontalTextAlignment="Start"  TextColor="Black" Margin="0,2,0,0" WidthRequest="150" />
+                                    <Label      HorizontalOptions="Center" Text="{Binding point}"/>
+                                </StackLayout>
+
+                                <StackLayout Orientation="Horizontal" BackgroundColor="White">
+                                    <Label Text="วันที่" HorizontalTextAlignment="Start"  TextColor="Black" Margin="0,2,0,0" WidthRequest="150" />
+                                    <Label     HorizontalOptions="Center" Text="{Binding datepoint , StringFormat ='{0:dd MMM yyyy}'}"/>
+                                </StackLayout>
+                            </StackLayout>
+
+                                    </Frame>
+                                </ContentView>
+                            </ViewCell>
+                        </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

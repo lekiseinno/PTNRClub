@@ -16,6 +16,7 @@ D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\FormsView
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\Java.Interop.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\Mono.Android.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\mscorlib.dll
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\MvvmHelpers.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\Newtonsoft.Json.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\Plugin.Settings.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\PTNRClub.dll
@@ -38,6 +39,7 @@ D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\Xamarin.A
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Compat.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.UI.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.Utils.dll
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.CustomTabs.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Design.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Fragment.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Media.Compat.dll

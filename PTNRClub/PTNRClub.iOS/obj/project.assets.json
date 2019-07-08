@@ -93,6 +93,15 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "Refractored.MvvmHelpers/1.4.1-beta": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {}
+        }
+      },
       "SkiaSharp/1.68.0": {
         "type": "package",
         "compile": {
@@ -436,13 +445,14 @@
           "DLToolkit.Forms.Controls.ImageCropView": "1.0.7",
           "LiveXAML": "2.1.72",
           "Newtonsoft.Json": "12.0.2",
+          "Refractored.MvvmHelpers": "1.4.1-beta",
           "Xam.Plugins.Settings": "4.1.0-beta",
           "Xamarin.FFImageLoading": "2.4.11.982",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.FFImageLoading.Svg": "2.4.11.982",
           "Xamarin.FFImageLoading.Svg.Forms": "2.4.11.982",
           "Xamarin.FFImageLoading.Transformations": "2.4.11.982",
-          "Xamarin.Forms": "4.0.0.497661",
+          "Xamarin.Forms": "4.0.0.425677",
           "Xamarin.Forms.CarouselView": "2.3.0-pre2",
           "XamarinForms.CardView": "1.1.1.5",
           "Xamvvm.Forms": "1.0.5",
@@ -546,6 +556,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Refractored.MvvmHelpers/1.4.1-beta": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {}
         }
       },
       "SkiaSharp/1.68.0": {
@@ -869,13 +888,14 @@
           "DLToolkit.Forms.Controls.ImageCropView": "1.0.7",
           "LiveXAML": "2.1.72",
           "Newtonsoft.Json": "12.0.2",
+          "Refractored.MvvmHelpers": "1.4.1-beta",
           "Xam.Plugins.Settings": "4.1.0-beta",
           "Xamarin.FFImageLoading": "2.4.11.982",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.FFImageLoading.Svg": "2.4.11.982",
           "Xamarin.FFImageLoading.Svg.Forms": "2.4.11.982",
           "Xamarin.FFImageLoading.Transformations": "2.4.11.982",
-          "Xamarin.Forms": "4.0.0.497661",
+          "Xamarin.Forms": "4.0.0.425677",
           "Xamarin.Forms.CarouselView": "2.3.0-pre2",
           "XamarinForms.CardView": "1.1.1.5",
           "Xamvvm.Forms": "1.0.5",
@@ -979,6 +999,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Refractored.MvvmHelpers/1.4.1-beta": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {}
         }
       },
       "SkiaSharp/1.68.0": {
@@ -1305,13 +1334,14 @@
           "DLToolkit.Forms.Controls.ImageCropView": "1.0.7",
           "LiveXAML": "2.1.72",
           "Newtonsoft.Json": "12.0.2",
+          "Refractored.MvvmHelpers": "1.4.1-beta",
           "Xam.Plugins.Settings": "4.1.0-beta",
           "Xamarin.FFImageLoading": "2.4.11.982",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.FFImageLoading.Svg": "2.4.11.982",
           "Xamarin.FFImageLoading.Svg.Forms": "2.4.11.982",
           "Xamarin.FFImageLoading.Transformations": "2.4.11.982",
-          "Xamarin.Forms": "4.0.0.497661",
+          "Xamarin.Forms": "4.0.0.425677",
           "Xamarin.Forms.CarouselView": "2.3.0-pre2",
           "XamarinForms.CardView": "1.1.1.5",
           "Xamvvm.Forms": "1.0.5",
@@ -1415,6 +1445,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Refractored.MvvmHelpers/1.4.1-beta": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MvvmHelpers.dll": {}
         }
       },
       "SkiaSharp/1.68.0": {
@@ -1741,13 +1780,14 @@
           "DLToolkit.Forms.Controls.ImageCropView": "1.0.7",
           "LiveXAML": "2.1.72",
           "Newtonsoft.Json": "12.0.2",
+          "Refractored.MvvmHelpers": "1.4.1-beta",
           "Xam.Plugins.Settings": "4.1.0-beta",
           "Xamarin.FFImageLoading": "2.4.11.982",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.FFImageLoading.Svg": "2.4.11.982",
           "Xamarin.FFImageLoading.Svg.Forms": "2.4.11.982",
           "Xamarin.FFImageLoading.Transformations": "2.4.11.982",
-          "Xamarin.Forms": "4.0.0.497661",
+          "Xamarin.Forms": "4.0.0.425677",
           "Xamarin.Forms.CarouselView": "2.3.0-pre2",
           "XamarinForms.CardView": "1.1.1.5",
           "Xamvvm.Forms": "1.0.5",
@@ -2032,6 +2072,27 @@
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "newtonsoft.json.12.0.2.nupkg.sha512",
         "newtonsoft.json.nuspec"
+      ]
+    },
+    "Refractored.MvvmHelpers/1.4.1-beta": {
+      "sha512": "Ie0majH8a72IC1f3cOhZtuLnBKy4S86lRCV+Oujds7XnUfEaap18yNEKA7ttC34P5kAr6I8tI5HioJnZHZwfSQ==",
+      "type": "package",
+      "path": "refractored.mvvmhelpers/1.4.1-beta",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/MvvmHelpers.dll",
+        "lib/net461/MvvmHelpers.pdb",
+        "lib/net461/MvvmHelpers.xml",
+        "lib/netstandard1.0/MvvmHelpers.dll",
+        "lib/netstandard1.0/MvvmHelpers.pdb",
+        "lib/netstandard1.0/MvvmHelpers.xml",
+        "lib/netstandard2.0/MvvmHelpers.dll",
+        "lib/netstandard2.0/MvvmHelpers.dll.mdb",
+        "lib/netstandard2.0/MvvmHelpers.pdb",
+        "lib/netstandard2.0/MvvmHelpers.xml",
+        "refractored.mvvmhelpers.1.4.1-beta.nupkg.sha512",
+        "refractored.mvvmhelpers.nuspec"
       ]
     },
     "SkiaSharp/1.68.0": {

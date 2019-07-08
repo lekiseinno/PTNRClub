@@ -89,3 +89,5 @@ D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\obj\iPhoneSimulator\Debug\PTNRClub.iOS.cs
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\obj\iPhoneSimulator\Debug\PTNRClub.iOS.exe
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\obj\iPhoneSimulator\Debug\PTNRClub.iOS.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\PTNRClub.dll.mdb
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\MvvmHelpers.dll
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\MvvmHelpers.pdb

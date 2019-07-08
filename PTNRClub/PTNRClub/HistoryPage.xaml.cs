@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PTNRClub.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,10 +13,23 @@ namespace PTNRClub
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class HistoryPage : ContentPage
 	{
-		public HistoryPage ()
+        public HistoryPageModel _ViewModel;
+        public HistoryPage ()
 		{
 			InitializeComponent ();
-		}
+
+
+            BindingContext = _ViewModel = new HistoryPageModel();
+        }
+
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+
+            _ViewModel.GetData.Execute(null);
+        }
 
 
         private async void Logout_Clicked(object sender, EventArgs e)
@@ -24,7 +38,7 @@ namespace PTNRClub
 
             if (result == "OK")
             {
-                //  Helpers.Settings.IsLoggedIn = false;
+                  Helpers.Settings.IsLoggedIn = false;
 
 
                 App.Current.MainPage = new LoginPage();

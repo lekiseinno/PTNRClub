@@ -12,6 +12,7 @@ FFImageLoading.Svg.Forms
 FFImageLoading.Svg.Platform
 FFImageLoading.Transformations
 FormsViewGroup
+MvvmHelpers
 Newtonsoft.Json
 Plugin.Settings
 PTNRClub
@@ -31,6 +32,7 @@ Xamarin.Android.Support.Annotations
 Xamarin.Android.Support.Compat
 Xamarin.Android.Support.Core.UI
 Xamarin.Android.Support.Core.Utils
+Xamarin.Android.Support.CustomTabs
 Xamarin.Android.Support.Design
 Xamarin.Android.Support.Fragment
 Xamarin.Android.Support.Media.Compat
