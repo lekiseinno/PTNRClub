@@ -28,7 +28,7 @@ namespace PTNRClub.Helpers
         }
 
 
-        public static DateTime  DateExp
+        public static DateTime DateExp
         {
             get { return CrossSettings.Current.GetValueOrDefault("DateExp", DateTime.Now); }
             set { CrossSettings.Current.AddOrUpdateValue("DateExp", value); }

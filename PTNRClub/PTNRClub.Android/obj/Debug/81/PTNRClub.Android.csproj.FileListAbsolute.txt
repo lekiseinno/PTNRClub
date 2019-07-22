@@ -85,9 +85,6 @@ D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\System.Runtime.Serializatio
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\System.ServiceModel.Internals.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\System.Web.Services.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\Mono.Security.pdb
-D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\Plugin.Settings.dll.mdb
-D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\PTNRClub.dll.mdb
-D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\MvvmHelpers.dll.mdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\PTNRClub.Android.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\FFImageLoading.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\FFImageLoading.Forms.pdb
@@ -117,6 +114,9 @@ D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\System.Runtime.S
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\System.Web.Services.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\Mono.Security.pdb
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\MvvmHelpers.dll.mdb
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\Plugin.Settings.dll.mdb
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\PTNRClub.dll.mdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\MvvmHelpers.dll.mdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\Plugin.Settings.dll.mdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\PTNRClub.dll.mdb
@@ -152,8 +152,10 @@ D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\System.Xm
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-D:\PTNR\PTNRClub\PTNRClub\PTNRClub\bin\Debug\netstandard2.0\PTNRClub.dll
-D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\PTNRClub.dll.mdb
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\mipmap-mdpi\iconptnr.png
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\mipmap-xhdpi\iconptnr.png
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\mipmap-xxhdpi\iconptnr.png
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\mipmap-xxxhdpi\iconptnr.png
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\MvvmHelpers.dll.mdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\Plugin.Settings.dll.mdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\linksrc\PTNRClub.dll.mdb

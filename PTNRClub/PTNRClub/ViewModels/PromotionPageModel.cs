@@ -34,7 +34,7 @@ namespace PTNRClub.ViewModels
                 if (item != null)
                 {
 
-                        await App.Current.MainPage.Navigation.PushModalAsync(new DetailPage (item.ImageUrl));
+                    await App.Current.MainPage.Navigation.PushModalAsync(new DetailPage(item.ImageUrl));
 
                 }
 
@@ -104,7 +104,7 @@ namespace PTNRClub.ViewModels
                 set { SetField(ref imageUrl, value); }
             }
 
-         
+
         }
 
 

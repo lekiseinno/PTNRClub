@@ -9,12 +9,12 @@ using Xamarin.Forms.Xaml;
 
 namespace PTNRClub
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class LoginPage : ContentPage
-	{
-		public LoginPage ()
-		{
-			InitializeComponent ();
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class LoginPage : ContentPage
+    {
+        public LoginPage()
+        {
+            InitializeComponent();
             loginButton.Clicked += LoginButton_Clicked;
         }
 
@@ -33,11 +33,11 @@ namespace PTNRClub
             {
                 Helpers.Settings.CusID = customer.cust_id;
                 Helpers.Settings.Name = customer.cust_name;
-                Helpers.Settings.Surname = customer.cust_surname ;
-                Helpers.Settings.Point = customer.cust_reward  ;
-                Helpers.Settings.CardNo = customer.cust_card ;
-                Helpers.Settings.Telephone  = customer.cust_tel  ;
-                Helpers.Settings.DateExp  = customer.cust_expdate;
+                Helpers.Settings.Surname = customer.cust_surname;
+                Helpers.Settings.Point = customer.point;
+                Helpers.Settings.CardNo = customer.cust_card;
+                Helpers.Settings.Telephone = customer.cust_tel;
+                Helpers.Settings.DateExp = customer.cust_expdate;
                 Helpers.Settings.IsLoggedIn = true;
 
                 //เทคนิค การเปลี่ยนหน้าหลักให้อยู่ใน masterDetail
@@ -52,7 +52,7 @@ namespace PTNRClub
 
                 await Navigation.PushModalAsync(new MainPage());
 
-    
+
             }
 
             else await DisplayAlert("Warning", "Username or Password incorrect!!", "OK");

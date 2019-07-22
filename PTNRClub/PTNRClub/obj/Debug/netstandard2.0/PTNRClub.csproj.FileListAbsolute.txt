@@ -16,7 +16,7 @@ D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Debug\netstandard2.0\PromotionPage.xaml.g
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Debug\netstandard2.0\PTNRClub.csproj.CoreCompileInputs.cache
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Debug\netstandard2.0\PTNRClub.AssemblyInfoInputs.cache
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Debug\netstandard2.0\PTNRClub.AssemblyInfo.cs
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Debug\netstandard2.0\XamlC.stamp
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Debug\netstandard2.0\PTNRClub.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Debug\netstandard2.0\PTNRClub.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Debug\netstandard2.0\PTNRClub.csprojAssemblyReference.cache
-D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Debug\netstandard2.0\XamlC.stamp

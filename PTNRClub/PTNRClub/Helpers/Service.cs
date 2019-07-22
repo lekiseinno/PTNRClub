@@ -12,9 +12,9 @@ namespace PTNRClub.Helpers
 {
     public static class Service
     {
-        // private static Uri BaseAddress = new Uri("http://lekise.dyndns.biz:8081");
+        private static Uri BaseAddress = new Uri("https://www.lekise.net");
 
-        private static Uri BaseAddress = new Uri("http://10.10.2.31:8081");
+        //private static Uri BaseAddress = new Uri("http://10.10.2.31:8081");
 
 
 
@@ -59,10 +59,9 @@ namespace PTNRClub.Helpers
         public static async Task<ImageList> GetImageList(string ifolder)
         {
 
-            var requestUri = "http://10.10.2.31:8081/apps/PTNRclub/images/readdir.php?folder=" + ifolder;
+        //    var requestUri = "http://10.10.2.31:8081/apps/PTNRclub/images/readdir.php?folder=" + ifolder;
 
-            //var requestUri = "http://lekise.dyndns.biz:8081/apps/PTNRclub/images/readdir.php?folder=" + ifolder;
-
+            var requestUri = "https://www.lekise.net/apps/PTNRclub/images/readdir.php?folder=" + ifolder;
 
             using (var client = new HttpClient())
             {

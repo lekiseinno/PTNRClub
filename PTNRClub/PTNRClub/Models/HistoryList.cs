@@ -14,10 +14,12 @@ namespace PTNRClub.Models
 
         public string location_id { get; set; }
 
+        public string location_name { get; set; }
+
         public int point { get; set; }
 
         public DateTime datepoint { get; set; }
 
-        
+
     }
 }

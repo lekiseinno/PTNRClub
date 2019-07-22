@@ -839,6 +839,8 @@ namespace PTNRClub.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.expanded_menu = global::PTNRClub.Droid.Resource.Id.expanded_menu;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.fill = global::PTNRClub.Droid.Resource.Id.fill;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.@fixed = global::PTNRClub.Droid.Resource.Id.@fixed;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_appbar = global::PTNRClub.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_recycler = global::PTNRClub.Droid.Resource.Id.flyoutcontent_recycler;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.forever = global::PTNRClub.Droid.Resource.Id.forever;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.ghost_view = global::PTNRClub.Droid.Resource.Id.ghost_view;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.home = global::PTNRClub.Droid.Resource.Id.home;
@@ -5221,10 +5223,10 @@ namespace PTNRClub.Droid
 			public const int @fixed = 2131492914;
 			
 			// aapt resource value: 0x7F020180
-			public const int flyoutcontent.appbar = 2130837888;
+			public const int flyoutcontent_appbar = 2130837888;
 			
 			// aapt resource value: 0x7F020181
-			public const int flyoutcontent.recycler = 2130837889;
+			public const int flyoutcontent_recycler = 2130837889;
 			
 			// aapt resource value: 0x7F0C0009
 			public const int forever = 2131492873;
@@ -5938,11 +5940,14 @@ namespace PTNRClub.Droid
 			// aapt resource value: 0x7F040002
 			public const int icon = 2130968578;
 			
+			// aapt resource value: 0x7F040004
+			public const int iconptnr = 2130968580;
+			
 			// aapt resource value: 0x7F040003
 			public const int icon_round = 2130968579;
 			
-			// aapt resource value: 0x7F040004
-			public const int launcher_foreground = 2130968580;
+			// aapt resource value: 0x7F040005
+			public const int launcher_foreground = 2130968581;
 			
 			static Mipmap()
 			{

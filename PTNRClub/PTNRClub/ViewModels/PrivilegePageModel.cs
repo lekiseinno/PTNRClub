@@ -73,7 +73,7 @@ namespace PTNRClub.ViewModels
 
 
 
-        
+
         }
 
 
@@ -106,7 +106,7 @@ namespace PTNRClub.ViewModels
                 set { SetField(ref imageUrl, value); }
             }
 
-         
+
         }
 
 

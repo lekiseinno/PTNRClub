@@ -10,10 +10,10 @@ using MvvmHelpers;
 
 namespace PTNRClub.ViewModels
 {
-    public class HistoryPageModel 
+    public class HistoryPageModel
     {
 
-      
+
         public Command GetData { get; set; }
         public ObservableRangeCollection<HistoryList> HistoryItems { get; } = new ObservableRangeCollection<HistoryList>();
 
@@ -28,7 +28,7 @@ namespace PTNRClub.ViewModels
 
         private async Task GetDataCommand()
         {
-       
+
 
             var historylist = await Helpers.Service.GetHistory(Helpers.Settings.CusID);
 
@@ -52,5 +52,5 @@ namespace PTNRClub.ViewModels
         }
     }
 
-    
+
 }

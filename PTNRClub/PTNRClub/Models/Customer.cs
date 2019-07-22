@@ -33,7 +33,7 @@ namespace PTNRClub.Models
         [MaxLength(50), NotNull]
         public string cust_card { get; set; }
 
-        public int cust_reward { get; set; }
+        public int point { get; set; }
 
         public DateTime cust_expdate { get; set; }
 

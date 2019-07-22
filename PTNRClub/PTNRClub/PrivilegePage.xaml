@@ -28,7 +28,7 @@
                     <Grid>
 
 
-                        <ffimageloading:CachedImage  Aspect="Fill" HeightRequest="300"
+                        <ffimageloading:CachedImage  Aspect="Fill" HeightRequest="250"
                             LoadingPlaceholder="image_loading.png" ErrorPlaceholder="image_error.png"
                             Source="{Binding ImageUrl}"/>
 
