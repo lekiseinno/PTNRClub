@@ -54,6 +54,25 @@ namespace PTNRClub.Helpers
 
 
 
+        public static async Task<bool> UpdateCustomer(Customer customer)
+        {
+            var param = new Dictionary<string, string>();
+            param.Add("ID", customer.cust_id );
+            param.Add("Email", customer.cust_email );
+            param.Add("Telephone", customer.cust_tel );
+            param.Add("Username", customer.cust_name );
+            param.Add("Password", customer.cust_password );
+
+            var content = new FormUrlEncodedContent(param);
+
+            var client = new HttpClient();
+            client.BaseAddress = BaseAddress;
+
+            var response = await client.PostAsync("api/ptnrat/auth", content);
+
+            return response.StatusCode == HttpStatusCode.OK;
+
+        }
 
 
         public static async Task<ImageList> GetImageList(string ifolder)

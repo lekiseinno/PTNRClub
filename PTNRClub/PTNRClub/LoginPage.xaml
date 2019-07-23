@@ -14,13 +14,11 @@
                            VerticalOptions="CenterAndExpand"/>
                     <Entry Placeholder="Username"
                        x:Name="usernameEntry"
-                           TextColor="#FF6666"
-                       BackgroundColor="#A0FFFFFF" />
+                           TextColor="#FF6666" />
                     <Entry Placeholder="Password"
                        x:Name="passwordEntry"
                            TextColor="#FF6666"
-                       IsPassword="true"
-                       BackgroundColor="#A0FFFFFF" />
+                       IsPassword="true" />
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition />

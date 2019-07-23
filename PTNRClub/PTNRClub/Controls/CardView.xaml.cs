@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PTNRClub.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -50,9 +51,17 @@ namespace PTNRClub.Controls
 
         }
 
-        private void Card_Tapped(object sender, EventArgs e)
+         void Card_Tapped(object sender, EventArgs  e)
         {
-            Navigation.PushAsync(new MemberPage ());
+
+
+            //var menu = sender as TapGestureRecognizer;
+
+      
+            //var customer =  new Customer();
+            //await Navigation.PushAsync(new MemberEditPage(customer));
+
+              Navigation.PushAsync(new MemberEditPage ());
         }
     }
 }

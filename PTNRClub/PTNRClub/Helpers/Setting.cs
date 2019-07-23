@@ -42,6 +42,12 @@ namespace PTNRClub.Helpers
         }
 
 
+        public static string Password
+        {
+            get { return CrossSettings.Current.GetValueOrDefault("Password", ""); }
+            set { CrossSettings.Current.AddOrUpdateValue("Password", value); }
+        }
+
         public static int Point
         {
             get { return CrossSettings.Current.GetValueOrDefault("Point", 0); }

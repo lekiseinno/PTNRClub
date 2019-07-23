@@ -34,6 +34,8 @@ namespace PTNRClub
                 Helpers.Settings.CusID = customer.cust_id;
                 Helpers.Settings.Name = customer.cust_name;
                 Helpers.Settings.Surname = customer.cust_surname;
+                Helpers.Settings.Password  = customer.cust_password;
+                Helpers.Settings.Email  = customer.cust_email;
                 Helpers.Settings.Point = customer.point;
                 Helpers.Settings.CardNo = customer.cust_card;
                 Helpers.Settings.Telephone = customer.cust_tel;
