@@ -53,13 +53,11 @@ namespace PTNRClub
                 customers.cust_name = nameEntry.Text;
                 customers.cust_surname = surnameEntry.Text;
                 customers.cust_email = emailEntry.Text;
-                customers.cust_tel = telephoneEntry.Text;
-                
+                customers.cust_tel = telephoneEntry.Text;           
                 customers.cust_password = passwordEntry.Text;
 
                 indicator.IsVisible = true;
-
-           //     await Helpers.Service.UpdateCustomer(customers);
+                await Helpers.Service.UpdateCustomer(customers);
                 indicator.IsVisible = false;
                 await Navigation.PopAsync();
 

@@ -42,14 +42,7 @@ namespace PTNRClub
                 Helpers.Settings.DateExp = customer.cust_expdate;
                 Helpers.Settings.IsLoggedIn = true;
 
-                //เทคนิค การเปลี่ยนหน้าหลักให้อยู่ใน masterDetail
-
-
-                //var iPage = new NavigationPage(new MainPage())
-                // {
-                //     //BarBackgroundColor = Color.FromHex("#ff5300"),
-                //     //BarTextColor = Color.White,
-                // };
+               
 
 
                 await Navigation.PushModalAsync(new MainPage());

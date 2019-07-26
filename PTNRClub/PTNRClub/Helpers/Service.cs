@@ -14,17 +14,14 @@ namespace PTNRClub.Helpers
     {
         private static Uri BaseAddress = new Uri("https://www.lekise.net");
 
-        //private static Uri BaseAddress = new Uri("http://10.10.2.31:8081");
-
-
 
         public static async Task<Customer> AuthenUser(string iusername, string ipassword)
         {
 
             var param = new Dictionary<string, string>();
 
-            param.Add("signinusername", iusername);
-            param.Add("signinpassword", ipassword);
+            param.Add("username", iusername);
+            param.Add("password", ipassword);
             param.Add("appname", "PTNRCLUB");
 
             var content = new FormUrlEncodedContent(param);
@@ -57,18 +54,17 @@ namespace PTNRClub.Helpers
         public static async Task<bool> UpdateCustomer(Customer customer)
         {
             var param = new Dictionary<string, string>();
-            param.Add("ID", customer.cust_id );
-            param.Add("Email", customer.cust_email );
-            param.Add("Telephone", customer.cust_tel );
-            param.Add("Username", customer.cust_name );
-            param.Add("Password", customer.cust_password );
+            param.Add("cust_id", customer.cust_id );
+            param.Add("cust_email", customer.cust_email );
+            param.Add("cust_tel", customer.cust_tel );
+            param.Add("cust_password", customer.cust_password );
 
             var content = new FormUrlEncodedContent(param);
 
             var client = new HttpClient();
             client.BaseAddress = BaseAddress;
 
-            var response = await client.PostAsync("api/ptnrat/auth", content);
+            var response = await client.PostAsync("api/ptnrat/updateCustomer", content);
 
             return response.StatusCode == HttpStatusCode.OK;
 
@@ -77,8 +73,6 @@ namespace PTNRClub.Helpers
 
         public static async Task<ImageList> GetImageList(string ifolder)
         {
-
-        //    var requestUri = "http://10.10.2.31:8081/apps/PTNRclub/images/readdir.php?folder=" + ifolder;
 
             var requestUri = "https://www.lekise.net/apps/PTNRclub/images/readdir.php?folder=" + ifolder;
 
