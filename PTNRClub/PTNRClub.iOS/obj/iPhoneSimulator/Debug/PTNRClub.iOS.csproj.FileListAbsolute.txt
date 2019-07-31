@@ -78,7 +78,6 @@ D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\Xamvvm.Core.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\Xamvvm.Forms.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\PTNRClub.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\PTNRClub.pdb
-D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhoneSimulator\Debug\PTNRClub.dll.mdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items

@@ -1,7 +1,6 @@
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\bin\Release\netstandard2.0\PTNRClub.deps.json
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\bin\Release\netstandard2.0\PTNRClub.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\bin\Release\netstandard2.0\PTNRClub.pdb
-D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Release\netstandard2.0\PTNRClub.csprojAssemblyReference.cache
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Release\netstandard2.0\PTNRClub.Properties.Resources.resources
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Release\netstandard2.0\PTNRClub.csproj.GenerateResource.cache
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Release\netstandard2.0\obj\Release\netstandard2.0\App.xaml.g.cs
@@ -10,6 +9,7 @@ D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Release\netstandard2.0\DetailPage.xaml.g.
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Release\netstandard2.0\HistoryPage.xaml.g.cs
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Release\netstandard2.0\LoginPage.xaml.g.cs
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Release\netstandard2.0\MemberEditPage.xaml.g.cs
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Release\netstandard2.0\MemberPage.xaml.g.cs
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Release\netstandard2.0\NewsPage.xaml.g.cs
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub\obj\Release\netstandard2.0\PrivilegePage.xaml.g.cs

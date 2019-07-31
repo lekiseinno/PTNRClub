@@ -1,9 +1,9 @@
 AndroidUseAapt2=False
 UseSharedRuntime=false
 UseFastDeployment=false
-EnableMultidex=False
-EnableProGuard=
-GenerateOnePackagePerABI=
+EnableMultidex=false
+EnableProGuard=true
+GenerateOnePackagePerABI=true
 BundleAssemblies=true
 EnableDeveloperInstrumentation=true
 Debugger=Xamarin

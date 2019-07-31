@@ -17,11 +17,51 @@ public class C1ArrayAdapter_1
 	}
 
 
+	public C1ArrayAdapter_1 (android.content.Context p0, int p1)
+	{
+		super (p0, p1);
+		if (getClass () == C1ArrayAdapter_1.class)
+			mono.android.TypeManager.Activate ("C1.Android.Core.C1ArrayAdapter`1, C1.Android.Core", "Android.Content.Context, Mono.Android:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1 });
+	}
+
+
+	public C1ArrayAdapter_1 (android.content.Context p0, int p1, int p2)
+	{
+		super (p0, p1, p2);
+		if (getClass () == C1ArrayAdapter_1.class)
+			mono.android.TypeManager.Activate ("C1.Android.Core.C1ArrayAdapter`1, C1.Android.Core", "Android.Content.Context, Mono.Android:System.Int32, mscorlib:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
+	}
+
+
+	public C1ArrayAdapter_1 (android.content.Context p0, int p1, java.lang.Object[] p2)
+	{
+		super (p0, p1, p2);
+		if (getClass () == C1ArrayAdapter_1.class)
+			mono.android.TypeManager.Activate ("C1.Android.Core.C1ArrayAdapter`1, C1.Android.Core", "Android.Content.Context, Mono.Android:System.Int32, mscorlib:T[], Mono.Android", this, new java.lang.Object[] { p0, p1, p2 });
+	}
+
+
+	public C1ArrayAdapter_1 (android.content.Context p0, int p1, int p2, java.lang.Object[] p3)
+	{
+		super (p0, p1, p2, p3);
+		if (getClass () == C1ArrayAdapter_1.class)
+			mono.android.TypeManager.Activate ("C1.Android.Core.C1ArrayAdapter`1, C1.Android.Core", "Android.Content.Context, Mono.Android:System.Int32, mscorlib:System.Int32, mscorlib:T[], Mono.Android", this, new java.lang.Object[] { p0, p1, p2, p3 });
+	}
+
+
 	public C1ArrayAdapter_1 (android.content.Context p0, int p1, java.util.List p2)
 	{
 		super (p0, p1, p2);
 		if (getClass () == C1ArrayAdapter_1.class)
 			mono.android.TypeManager.Activate ("C1.Android.Core.C1ArrayAdapter`1, C1.Android.Core", "Android.Content.Context, Mono.Android:System.Int32, mscorlib:System.Collections.Generic.IList`1<T>, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
+	}
+
+
+	public C1ArrayAdapter_1 (android.content.Context p0, int p1, int p2, java.util.List p3)
+	{
+		super (p0, p1, p2, p3);
+		if (getClass () == C1ArrayAdapter_1.class)
+			mono.android.TypeManager.Activate ("C1.Android.Core.C1ArrayAdapter`1, C1.Android.Core", "Android.Content.Context, Mono.Android:System.Int32, mscorlib:System.Int32, mscorlib:System.Collections.Generic.IList`1<T>, mscorlib", this, new java.lang.Object[] { p0, p1, p2, p3 });
 	}
 
 

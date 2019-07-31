@@ -5,7 +5,6 @@ D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhone\Release\C1.Xamarin.Forms.Core.
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhone\Release\DLToolkit.Forms.Controls.FlowListView.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhone\Release\DLToolkit.Forms.Controls.ImageCropView.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhone\Release\Newtonsoft.Json.dll
-D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhone\Release\Newtonsoft.Json.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhone\Release\SkiaSharp.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhone\Release\WebP.Touch.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhone\Release\Plugin.Settings.dll
@@ -81,3 +80,11 @@ D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\obj\iPhone\Release\PTNRClub.iOS.csproj.Co
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\obj\iPhone\Release\XamlC.stamp
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\obj\iPhone\Release\PTNRClub.iOS.csproj.CopyComplete
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\obj\iPhone\Release\PTNRClub.iOS.exe
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhone\Release\MvvmHelpers.dll
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhone\Release\MvvmHelpers.pdb
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhone\Release\SQLite-net.dll
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhone\Release\SQLitePCLRaw.batteries_green.dll
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhone\Release\SQLitePCLRaw.batteries_v2.dll
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhone\Release\SQLitePCLRaw.core.dll
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhone\Release\SQLitePCLRaw.provider.sqlite3.dll
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.iOS\bin\iPhone\Release\Plugin.Settings.pdb

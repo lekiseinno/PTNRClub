@@ -1,12 +1,12 @@
-D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
-D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\PTNRClub.Android.nuget.stamp
-D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\PTNRClub.Android.csprojAssemblyReference.cache
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\PTNRClub.Android.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\PTNRClub.Android.pdb
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\com.companyname.PTNRClub.apk
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\com.companyname.PTNRClub-Signed.apk
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\PTNRClub.dll
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\bin\Debug\PTNRClub.pdb
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\PTNRClub.Android.nuget.stamp
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\PTNRClub.Android.csprojAssemblyReference.cache
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\libraryimports.cache.stamp
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res.flag
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\PTNRClub.Android.csproj.CoreCompileInputs.cache
@@ -31,7 +31,6 @@ D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\mipmap-xxhdpi\icon.p
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\mipmap-xxhdpi\launcher_foreground.png
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\mipmap-xxxhdpi\icon.png
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\mipmap-xxxhdpi\launcher_foreground.png
-D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\drawable\bgptnr.jpg
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\drawable\ppt.png
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\drawable\ptnr.png
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\drawable-hdpi\xamagon.png
@@ -58,6 +57,7 @@ D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\mipmap-mdpi\iconptnr
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\mipmap-xhdpi\iconptnr.png
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\mipmap-xxhdpi\iconptnr.png
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\mipmap-xxxhdpi\iconptnr.png
+D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\res\drawable\bgptnr.png
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\R.cs.flag
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\R.txt
 D:\PTNR\PTNRClub\PTNRClub\PTNRClub.Android\obj\Debug\81\uploadflags.txt

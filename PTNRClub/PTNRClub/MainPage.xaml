@@ -5,8 +5,8 @@
              x:Class="PTNRClub.MainPage" 
              xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
              android:TabbedPage.ToolbarPlacement="Bottom"
-             android:TabbedPage.BarItemColor="#999999"
-             android:TabbedPage.BarSelectedItemColor="white"
+             android:TabbedPage.BarItemColor="white"
+             android:TabbedPage.BarSelectedItemColor="#735360"
              BarBackgroundColor="#FF6666">
 
     <TabbedPage.Children>

@@ -2,7 +2,7 @@ package ffimageloading.views;
 
 
 public class ImageViewAsync
-	extends md55759adc3208eb42caa6ddcbd3000b15e.ManagedImageView
+	extends android.widget.ImageView
 	implements
 		mono.android.IGCUserPeer
 {
@@ -38,6 +38,14 @@ public class ImageViewAsync
 		super (p0, p1, p2);
 		if (getClass () == ImageViewAsync.class)
 			mono.android.TypeManager.Activate ("FFImageLoading.Views.ImageViewAsync, FFImageLoading.Platform", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
+	}
+
+
+	public ImageViewAsync (android.content.Context p0, android.util.AttributeSet p1, int p2, int p3)
+	{
+		super (p0, p1, p2, p3);
+		if (getClass () == ImageViewAsync.class)
+			mono.android.TypeManager.Activate ("FFImageLoading.Views.ImageViewAsync, FFImageLoading.Platform", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2, p3 });
 	}
 
 
